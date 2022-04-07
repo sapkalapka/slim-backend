@@ -1,0 +1,20 @@
+{
+  "name": "slim-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Slim backend for Shopify Private Apps",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Gergo Jaszberenyi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1"
+  },
+  "devDependencies": {}
+}
